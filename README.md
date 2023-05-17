@@ -15,6 +15,14 @@ Após a instalação das depêndencias, basta executar o comando abaixo para exe
 ./vendor/bin/sail up -d --build
 ```
 
+### Executar testes
+
+Para executar os teste do projeto basta executar o comando abaixo:
+
+```shell
+./vendor/bin/sail php artisan test
+``` 
+
 ### Acesso a documentação
 
 para acessar a documentação do projeto você pode acessar o link
